@@ -1,5 +1,8 @@
 import java.util.HashMap;
 
 public class EventMap {
-    HashMap<Integer, String> event;
+    HashMap<Integer, Object> event;
+
+    public EventMap() {
+    }
 }
