@@ -5,5 +5,18 @@ public class App {
         System.out.println("Andrew");
 
 
+
+        System.out.println("Expected Name List:");
+        while (fileIn.hasNextLine()) {
+            String s = fileIn.nextLine();
+            names.add(s);
+            System.out.println(s);
+        }
+        saved.println(names.toString());
+        saved.close();
+        fileIn.close();
+
+
+
     }
 }
