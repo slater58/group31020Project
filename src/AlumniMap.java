@@ -5,4 +5,17 @@ public class AlumniMap {
 
     public AlumniMap() {
     }
+
+    public void constructAlumniMap() {
+
+    }
+    public void editAlumniMap() {
+
+    }
+
+    public HashMap<Integer, Object> getAlumni() {
+        return alumni;
+    }
+
+
 }

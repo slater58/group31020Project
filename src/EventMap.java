@@ -5,4 +5,16 @@ public class EventMap {
 
     public EventMap() {
     }
+
+    public void constructEventMap() {
+
+    }
+
+    public void editEventMap() {
+
+    }
+
+    public HashMap<Integer, Object> getEvent() {
+        return event;
+    }
 }
